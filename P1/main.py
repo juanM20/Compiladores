@@ -51,12 +51,13 @@ class automa:
         for i in range(len(un)):
             self.d.append(un[i].split(','))
         self.d.pop(-1)
-        print(self.d)
+
+        cadena(self.d)
 
 
 
-def cadena (lines):
-    print('Hola cadena')
+def cadena (d):
+    print(d)
 
 if __name__ == '__main__':
     menu = True
