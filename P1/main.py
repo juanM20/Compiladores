@@ -64,15 +64,13 @@ if __name__ == '__main__':
         print('''
             Menu de automatas
             1.- Ingresar automata
-            2.- Ingresar cadena
-            3.- Salir
+            2.- Salir
             ''')
         opp = int(input('Opcion: '))
 
         init = {
             1: start,
-            2: cadena,
-            3: salir
+            2: salir
         }
         init.get(opp, errorHandler)()
 
